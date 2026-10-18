@@ -3,22 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Leonard Marina | Portfolio</title>
-<meta name="description" content="Portfolio de Leonard Marina, étudiante en BUT Informatique à Bordeaux. Développement, bases de données, applications.">
+<title>Marina Léonard | Portfolio</title>
+<meta name="description" content="Portfolio de Marina Léonard, étudiante en BUT Informatique à Bordeaux. Développement, bases de données, applications.">
+<link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="profil.css">
-<link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="wrap header-row">
-    <a href="#top" class="mark"><img src="icons/logo-wordmark.svg" alt="Marina Leonard" width="87" height="30"></a>
+    <a href="#top" class="mark"><img src="icons/logo-wordmark.svg" alt="Marina Léonard" width="87" height="30"></a>
     <nav class="nav">
       <a href="#projets">projets</a>
       <a href="#perso">persos</a>
@@ -41,7 +40,7 @@
         <p class="pin-tag">disponible dès janvier 2027</p>
         <h1 class="hero-title">
           <span class="hero-first">Marina</span>
-          <span class="hero-last">Leonard</span>
+          <span class="hero-last">Léonard</span>
         </h1>
         <p class="hero-role">étudiante en 2<sup>e</sup> année de BUT informatique</p>
         <a href="#projets" class="hero-cta">voir les projets ↓</a>
@@ -120,133 +119,79 @@
 
       <div class="project-grid" id="projectGrid">
 
-        <!-- projet 1, carte plus grande -->
-        <!-- les attributs data-* remplissent la fiche, cf projet 1 pour la liste -->
-        <article class="project-card project-card--featured" data-semester="s1" data-year="2025" data-category="dev"
-          data-context="Coder les fonctionnalités supplémentaires (mise à jour des données météorologiques, programmation du chauffage, etc.) à partir d'une structure de code incomplète, sur une simulation de station météo (pluviométrie, chauffage, météo)."
-          data-resultat="Implémentation des fonctions et d'algorithmes complexes tels que le décalage de tableaux, et affichage des données sous forme d'histogramme. Saisie utilisateur complète avec boucle de contrôle et de validité sur les entrées."
-          data-competences="Algorithmique, Intégration de données dans un affichage graphique" data-tools-list="Java, Algorithmique, Intégration, Boucles, Conditions, Tableaux" data-gallery="docs/Odomo_images/Odomo2.png, docs/Odomo_images/Odomo3.png">
-          <p class="project-tag">01</p>
-          <h3>Simulation de station météo</h3>
-          <!-- à réécrire -->
-          <p class="project-desc">
-            Implémentation des fonctions et d'algorithmes complexes tels que le décalage de tableaux, et affichage des données sous forme d'histogramme.
-          </p>
-          <button class="project-fav" type="button" aria-pressed="true" aria-label="Retirer des favoris">♥</button>
-          <div class="project-shot">
-            <img src="docs/Odomo_images/Odomo.png" alt="">
-          </div>
-          <p class="project-stack">Java</p>
-          <span class="project-more" aria-hidden="true">+</span>
-        </article>
-
-        <!-- projet 2 -->
-        <article class="project-card" data-semester="s1" data-year="2025" data-category="dev"
-          data-context="Dans un premier temps, coder les règles d’un jeu de plateau (planter un arbre, le couper, fertiliser, type de plantes, etc…), puis dans un second temps développer une ia en binôme capable de jouer à ce jeu avec une stratégie qui lui est propre, en concurrence avec les autres étudiants (accès à un classement journalier)."
-          data-resultat="Jeu fonctionnel comportant différents niveaux de difficulté avec une documentation et des tests unitaires complets. Une IA sans disqualification (aucun coup illégal) qui se place dans la tranche supérieure parmi le classement des étudiants grâce à une stratégie de classification des actions avec un ordre de priorité établi."
-          data-competences="Algorithmie, IA, Tests unitaires" data-tools-list="Java,Tests unitaires, Simulation algorithmique, Ordres de priorisation" data-gallery="docs/Biosphere/Biosphere2.png">
-          <p class="project-tag">02</p>
-          <h3>Jeu de plateau et création d’une IA</h3>
+        <!-- projet 12 -->
+        <article class="project-card" data-semester="s2" data-year="2026" data-category="app"
+          data-context="Création d’une application en équipe de quatre étudiants, ayant pour but de visualiser les données de risques et catastrophes naturelles en Nouvelle-Aquitaine, connectée à une base de données."
+          data-resultat="Conception d’une base de données SQL Server, à partir d’un MCD. Développement d’une application C# WinForms qui affiche les données de la base, avec des graphiques de différents niveaux de difficulté générés en Python. Remise d’une fiche statistiques, d’un dossier de spécifications, d’un plan de projet; ainsi qu’un guide d’installation et d’un bilan de réalisation"
+          data-competences="Conception base de données, Développement app C#, Visualisation des données, gestion de projet" data-tools-list="C# WinForms, SQL Server, Python, MCD, Rédaction de documents" data-gallery="docs/Equipe/equipe2.jpg, docs/Equipe/equipe3.jpg">
+          <p class="project-tag">12</p>
+          <h3>Création d’un système en équipe</h3>
           <!-- todo -->
           <p class="project-desc">
-            Jeu fonctionnel comportant différents niveaux de difficulté avec une documentation et des tests unitaires complets. 
+            Conception d’une base de données SQL Server, à partir d’un MCD. Développement d’une application C# WinForms qui affiche les données
           </p>
           <div class="project-shot">
-            <img src="docs/Biosphere/Biosphere.png" alt="">
-          </div>
-          <p class="project-stack">Java</p>
-          <span class="project-more" aria-hidden="true">+</span>
-        </article>
-
-        <!-- projet 3 -->
-        <article class="project-card" data-semester="s1" data-year="2025" data-category="systeme"
-          data-context="Créer un environnement virtuel complet sur une machine virtuelle avec des limites physiques (8Go d’espace de stockage maximum) sous AntiX Linux (distribution légère)."
-          data-resultat="Un environnement Linux complet (VSCode avec extensions, Git) ainsi qu’un tutoriel complet écrit sur les étapes à suivre pour reproduire à l’identique l’installation"
-          data-competences="Création et configuration d'un environnement virtuel, Administration système, Optimisation" data-tools-list="VMWare, Bash, VSCode, Git" data-gallery="docs/InstallationPoste/InstallationPoste2.png">
-          <p class="project-tag">03</p>
-          <h3>Installation de poste <br><br></h3>
-          <!-- todo -->
-          <p class="project-desc">
-            Un environnement Linux complet (VSCode avec extensions, Git) ainsi qu’un tutoriel complet écrit sur les étapes à suivre pour reproduire à l’identique l’installation
-          </p>
-          <div class="project-shot">
-            <img src="docs/InstallationPoste/InstallationPoste.png" alt="">
-          </div>
-          <p class="project-stack">Bash</p>
-          <span class="project-more" aria-hidden="true">+</span>
-        </article>
-
-        <!-- projet 4 -->
-        <article class="project-card" data-semester="s1" data-year="2025" data-category="bdd"
-          data-context="Concevoir et implémenter une base de données relationnelle en binôme (analyse des contraintes, MCD, script de création et script de remplissage), en respectant les contraintes définies."
-          data-resultat="Script de création et de remplissage livrés en deux semaines. Gestion des clés étrangères validée par tests progressifs après correcion des erreurs initiales. Répartition des tâches en parallèles entre les deux membres de l’équipe"
-          data-competences="Modélisation relationnelle, Analyse du besoin, Travail en équipe" data-tools-list="SQL, Win'Design, Contraintes CHECK/UNIQUE, Schémas MCD">
-          <p class="project-tag">04</p>
-          <h3>Création d'une base de données</h3>
-          <!-- todo -->
-          <p class="project-desc">
-            Script de création et de remplissage livrés en deux semaines. Gestion des clés étrangères validée par tests progressifs après correcion des erreurs initiales. Répartition des tâches en parallèles entre les deux membres de l’équipe
-          </p>
-          <div class="project-shot">
-            <img src="docs/bdd/bdd.png" alt="">
+            <img src="docs/Equipe/equipe.jpg" alt="Image de l'interface de l'application réalisée" loading="lazy">
           </div>
           <p class="project-stack">SQL</p>
-          <p class="project-stack">WinDesign</p>
+          <p class="project-stack">C#</p>
+          <p class="project-stack">Python</p>
+          <p class="project-stack">Gestion de projet</p>
           <span class="project-more" aria-hidden="true">+</span>
         </article>
 
-        <!-- projet 5 -->
-        <article class="project-card" data-semester="s1" data-year="2025" data-category="dev"
-          data-context="Optimiser et moderniser l’apparence graphique du site web d’une entreprise fictive d’informatique rétro, en respectant les demandes et contraintes du client."
-          data-resultat="Refonte complète du site en séparant la partie HTML du CSS, réduisant le code source, tout en améliorant l’accessibilité (W3C & Lighthouse) avec l’accès à plusieurs pages."
-          data-competences="Création à partir de zéro, suivre demandes, intégrations d'éléments navigables" data-tools-list="HTML, CSS, Grid & Flexbox" data-gallery="docs/Web/web2.png">
-          <p class="project-tag">05</p>
-          <h3>Création d'un site web<br><br></h3>
+        <!-- projet 11 -->
+        <article class="project-card" data-semester="s2" data-year="2026" data-category="autre"
+          data-context="Créer un lot complet d’affiches de différents formats (A1/2, supports de programmes, indicatives), respectant la charte de l’Université à l’occasion de la journée Portes Ouvertes en équipe de quatre étudiants."
+          data-resultat="Production d’affiches en différentes versions affichables pour l’ensemble de l’établissement ainsi qu’un plan d’affichage complet pour les trois étages du bâtiment."
+          data-competences="Gestion de projet, Communication visuelle, Travail d'équipe" data-tools-list="Canva" data-gallery="docs/Affichage/affichage2.jpg, docs/Affichage/affichage3.jpg, docs/Affichage/affichage4.jpg">
+          <p class="project-tag">11</p>
+          <h3>Réalisation d’une campagne d’affichages</h3>
           <!-- todo -->
           <p class="project-desc">
-            Refonte complète du site en séparant la partie HTML du CSS, réduisant le code source, tout en améliorant l’accessibilité (W3C & Lighthouse) avec l’accès à plusieurs pages.
+            Production d’affiches en différentes versions affichables pour l’ensemble de l’établissement ainsi qu’un plan d’affichage complet pour les trois étages du bâtiment.
           </p>
           <div class="project-shot">
-            <img src="docs/Web/web.png" alt="">
-          </div>
-          <p class="project-stack">HTML & CSS</p>
-          <span class="project-more" aria-hidden="true">+</span>
-        </article>
-
-        <!-- projet 6 -->
-        <article class="project-card" data-semester="s1" data-year="2025" data-category="autre"
-          data-context="Participer en équipe de 4 personnes dans la réalisation d’une analyse complète fictive de l’entreprise Péchalou à travers ses forces et faiblesses."
-          data-resultat="Identification des six fonctions principales de l’entreprise et analyse de son environnement grâce aux outils PESTEL et Porter. Proposition d’une solution résolvant la baisse du bénéfice basée sur l’exportation vers un public plus large"
-          data-competences="Gestion de projet, Analyse stratégique, Management d'équipe" data-tools-list="Outil PESTEL, 5 Forces de Porter, Recherches d'informations">
-          <p class="project-tag">06</p>
-          <h3>Analyse d'une entreprise<br><br></h3>
-          <!-- todo -->
-          <p class="project-desc">
-            Identification des six fonctions principales de l’entreprise et analyse de son environnement grâce aux outils PESTEL et Porter. Proposition d’une solution résolvant la baisse du bénéfice basée sur l’exportation vers un public plus large
-          </p>
-          <div class="project-shot">
-            <img src="docs/Analyse/analyse.png" alt="">
+            <img src="docs/Affichage/affichage.jpg" alt="Image présentant la campagne d'affichage" loading="lazy">
           </div>
           <p class="project-stack">Gestion de projet</p>
-          <p class="project-stack">Analyse stratégique</p>
+          <p class="project-stack">Communication visuelle</p>
           <span class="project-more" aria-hidden="true">+</span>
         </article>
 
-        <!-- projet 7 -->
-        <article class="project-card" data-semester="s2" data-year="2026" data-category="app"
-          data-context="Créer une application sous format Windows Forms qui reprend les règles d’un jeu de rôle sur table par équipe de trois étudiants. "
-          data-resultat="Livrables reprenant les points importants du projet, l’application fonctionnelle répondant aux besoins éprouvés comportant un programme de calcul pour les aspects complexes d’épreuves fictives, un système de drag-and-drop pour l’interface utilisateur , avec tests unitaires."
-          data-competences="Programmation C#, Conception UML, Développement IHM, Tests unitaires" data-tools-list="Visual Studio, .NET, WinForms" data-gallery="docs/App/app2.png, docs/App/app3.png">
-          <p class="project-tag">07</p>
-          <h3>Développement d'une application</h3>
+        <!-- projet 10 -->
+        <article class="project-card" data-semester="s2" data-year="2026" data-category="dev"
+          data-context="Développer un client JavaScript (front-end) d’un jeu en multijoueur en pixel-art, en gérant l’authentification des joueurs (identifiant + mot de passe uniques), un choix d’équipe, une coloration sélectionnable et collaborative sur une grille. Et des temps d’attente entre chaque action. Le tout en communication avec une API REST existante."
+          data-resultat="Ensemble des fonctionnalités demandées implémentées, ajout d’une roue de couleurs personnalisée et une mise à jour en temps réel du temps restant avant la prochaine action."
+          data-competences="JavaScript, Intégration d'une API REST, Fetch API" data-tools-list="HTML,CSS,JS">
+          <p class="project-tag">10</p>
+          <h3>Pixel War Étudiante<br><br></h3>
           <!-- todo -->
           <p class="project-desc">
-            Livrables reprenant les points importants du projet, l’application fonctionnelle répondant aux besoins éprouvés comportant un programme de calcul pour les aspects complexes d’épreuves fictives, un système de drag-and-drop pour l’interface utilisateur , avec tests unitaires.
+            Ensemble des fonctionnalités demandées implémentées, ajout d’une roue de couleurs personnalisée et une mise à jour en temps réel du temps restant avant la prochaine action.
           </p>
           <div class="project-shot">
-            <img src="docs/App/app.png" alt="">
+            <img src="docs/PixelWar/PixelWar.jpg" alt="Image présentant la guerre de pixel étudiante" loading="lazy">
           </div>
-          <p class="project-stack">C#</p>
+          <p class="project-stack">Java Script</p>
+          <span class="project-more" aria-hidden="true">+</span>
+        </article>
+
+        <!-- projet 9 -->
+        <article class="project-card" data-semester="s2" data-year="2026" data-category="reseau"
+          data-context="En binôme, mettre en place un réseau complet avec deux sous-réseaux, installer des services sur des machines virtuelles et configurer leur connexion, le tout dans un environnement virtualisé (NEmu), documenter le travail réalisé dans un wiki Git. "
+          data-resultat="Serveur de partage de fichiers Nextcloud connecté à OnlyOffice avec plugins ajoutés (Calendar, Passwords, Draw.io). Configuration réseau rendue persistante après redémarrage. Accès sécurisés par HTTPS et authentification à deux facteurs (TOTP). "
+          data-competences="Configuration réseau, administration système, Linux, Sécurisation des accès" data-tools-list="NEmu, Nextcloud, OnlyOffice, Bash, Linux" data-gallery="docs/Reseau/reseau2.jpg">
+          <p class="project-tag">09</p>
+          <h3>Configuration de services réseaux</h3>
+          <!-- todo -->
+          <p class="project-desc">
+            Serveur de partage de fichiers Nextcloud connecté à OnlyOffice avec plugins ajoutés (Calendar, Passwords, Draw.io). Configuration réseau rendue persistante après redémarrage. Accès sécurisés par HTTPS et authentification à deux facteurs (TOTP). 
+          </p>
+          <div class="project-shot">
+            <img src="docs/Reseau/reseau.jpg" alt="Image présentant le système réseau configuré" loading="lazy">
+          </div>
+          <p class="project-stack">Linux/Bash</p>
           <span class="project-more" aria-hidden="true">+</span>
         </article>
 
@@ -262,88 +207,140 @@
             Classes implémentées à partir des interfaces fournies. Trois algorithmes de coloration validés par tests unitaires JUnit, tous passés avec succès.
           </p>
           <div class="project-shot">
-            <img src="docs/Coloration/coloration.png" alt="">
+            <img src="docs/Coloration/coloration.jpg" alt="Image présentant l'algorithme de coloration de graphes" loading="lazy">
           </div>
           <p class="project-stack">Java</p>
           <span class="project-more" aria-hidden="true">+</span>
         </article>
 
-        <!-- projet 9 -->
-        <article class="project-card" data-semester="s2" data-year="2026" data-category="reseau"
-          data-context="En binôme, mettre en place un réseau complet avec deux sous-réseaux, installer des services sur des machines virtuelles et configurer leur connexion, le tout dans un environnement virtualisé (NEmu), documenter le travail réalisé dans un wiki Git. "
-          data-resultat="Serveur de partage de fichiers Nextcloud connecté à OnlyOffice avec plugins ajoutés (Calendar, Passwords, Draw.io). Configuration réseau rendue persistante après redémarrage. Accès sécurisés par HTTPS et authentification à deux facteurs (TOTP). "
-          data-competences="Configuration réseau, administration système, Linux, Sécurisation des accès" data-tools-list="NEmu, Nextcloud, OnlyOffice, Bash, Linux" data-gallery="docs/Reseau/reseau2.png">
-          <p class="project-tag">09</p>
-          <h3>Configuration de services réseaux</h3>
+        <!-- projet 7 -->
+        <article class="project-card" data-semester="s2" data-year="2026" data-category="app"
+          data-context="Créer une application sous format Windows Forms qui reprend les règles d’un jeu de rôle sur table par équipe de trois étudiants. "
+          data-resultat="Livrables reprenant les points importants du projet, l’application fonctionnelle répondant aux besoins éprouvés comportant un programme de calcul pour les aspects complexes d’épreuves fictives, un système de drag-and-drop pour l’interface utilisateur , avec tests unitaires."
+          data-competences="Programmation C#, Conception UML, Développement IHM, Tests unitaires" data-tools-list="Visual Studio, .NET, WinForms" data-gallery="docs/App/app2.jpg, docs/App/app3.jpg">
+          <p class="project-tag">07</p>
+          <h3>Développement d'une application</h3>
           <!-- todo -->
           <p class="project-desc">
-            Serveur de partage de fichiers Nextcloud connecté à OnlyOffice avec plugins ajoutés (Calendar, Passwords, Draw.io). Configuration réseau rendue persistante après redémarrage. Accès sécurisés par HTTPS et authentification à deux facteurs (TOTP). 
+            Livrables reprenant les points importants du projet, l’application fonctionnelle répondant aux besoins éprouvés comportant un programme de calcul pour les aspects complexes d’épreuves fictives, un système de drag-and-drop pour l’interface utilisateur , avec tests unitaires.
           </p>
           <div class="project-shot">
-            <img src="docs/Reseau/reseau.png" alt="">
+            <img src="docs/App/app.jpg" alt="Image de l'application/jeu réalisé" loading="lazy">
           </div>
-          <p class="project-stack">Linux/Bash</p>
+          <p class="project-stack">C#</p>
           <span class="project-more" aria-hidden="true">+</span>
         </article>
 
-        <!-- projet 10 -->
-        <article class="project-card" data-semester="s2" data-year="2026" data-category="dev"
-          data-context="Développer un client JavaScript (front-end) d’un jeu en multijoueur en pixel-art, en gérant l’authentification des joueurs (identifiant + mot de passe uniques), un choix d’équipe, une coloration sélectionnable et collaborative sur une grille. Et des temps d’attente entre chaque action. Le tout en communication avec une API REST existante."
-          data-resultat="Ensemble des fonctionnalités demandées implémentées, ajout d’une roue de couleurs personnalisée et une mise à jour en temps réel du temps restant avant la prochaine action."
-          data-competences="JavaScript, Intégration d'une API REST, Fetch API" data-tools-list="HTML,CSS,JS">
-          <p class="project-tag">10</p>
-          <h3>Pixel War Etudiante<br><br></h3>
+        <!-- projet 6 -->
+        <article class="project-card" data-semester="s1" data-year="2025" data-category="autre"
+          data-context="Participer en équipe de 4 personnes dans la réalisation d’une analyse complète fictive de l’entreprise Péchalou à travers ses forces et faiblesses."
+          data-resultat="Identification des six fonctions principales de l’entreprise et analyse de son environnement grâce aux outils PESTEL et Porter. Proposition d’une solution résolvant la baisse du bénéfice basée sur l’exportation vers un public plus large"
+          data-competences="Gestion de projet, Analyse stratégique, Management d'équipe" data-tools-list="Outil PESTEL, 5 Forces de Porter, Recherches d'informations">
+          <p class="project-tag">06</p>
+          <h3>Analyse d'une entreprise<br><br></h3>
           <!-- todo -->
           <p class="project-desc">
-            Ensemble des fonctionnalités demandées implémentées, ajout d’une roue de couleurs personnalisée et une mise à jour en temps réel du temps restant avant la prochaine action.
+            Identification des six fonctions principales de l’entreprise et analyse de son environnement grâce aux outils PESTEL et Porter. Proposition d’une solution résolvant la baisse du bénéfice basée sur l’exportation vers un public plus large
           </p>
           <div class="project-shot">
-            <img src="docs/PixelWar/PixelWar.png" alt="">
-          </div>
-          <p class="project-stack">Java Script</p>
-          <span class="project-more" aria-hidden="true">+</span>
-        </article>
-
-        <!-- projet 11 -->
-        <article class="project-card" data-semester="s2" data-year="2026" data-category="autrer"
-          data-context="Créer un lot complet d’affiches de différents formats (A1/2, supports de programmes, indicatives), respectant la charte de l’Université à l’occasion de la journée Portes Ouvertes en équipe de quatre étudiants."
-          data-resultat="Production d’affiches en différentes versions affichables pour l’ensemble de l’établissement ainsi qu’un plan d’affichage complet pour les trois étages du bâtiment."
-          data-competences="Gestion de projet, Communication visuelle, Travail d'équipe" data-tools-list="Canva" data-gallery="docs/Affichage/affichage2.png, docs/Affichage/affichage3.png, docs/Affichage/affichage4.png">
-          <p class="project-tag">11</p>
-          <h3>Réalisation d’une campagne d’affichages</h3>
-          <!-- todo -->
-          <p class="project-desc">
-            Production d’affiches en différentes versions affichables pour l’ensemble de l’établissement ainsi qu’un plan d’affichage complet pour les trois étages du bâtiment.
-          </p>
-          <div class="project-shot">
-            <img src="docs/Affichage/affichage.png" alt="">
+            <img src="docs/Analyse/analyse.jpg" alt="Image présentant l'entreprise analysée" loading="lazy">
           </div>
           <p class="project-stack">Gestion de projet</p>
-          <p class="project-stack">Communication visuelle</p>
+          <p class="project-stack">Analyse stratégique</p>
           <span class="project-more" aria-hidden="true">+</span>
         </article>
 
-        <!-- projet 12 -->
-        <article class="project-card" data-semester="s2" data-year="2026" data-category="app"
-          data-context="Création d’une application en équipe de quatre étudiants, ayant pour but de visualiser les données de risques et catastrophes naturelles en Nouvelle-Aquitaine, connectée à une base de données."
-          data-resultat="Conception d’une base de données SQL Server, à partir d’un MCD. Développement d’une application C# WinForms qui affiche les données de la base, avec des graphiques de différents niveaux de difficulté générés en Python. Remise d’une fiche statistiques, d’un dossier de spécifications, d’un plan de projet; ainsi qu’un guide d’installation et d’un bilan de réalisation"
-          data-competences="Conception base de données, Développement app C#, Visualisation des données, gestion de projet" data-tools-list="C# WinForms, SQL Server, Python, MCD, Rédaction de documents" data-gallery="docs/Equipe/equipe2.png, docs/Equipe/equipe3.png">
-          <p class="project-tag">12</p>
-          <h3>Création d’un système en équipe</h3>
+        <!-- projet 5 -->
+        <article class="project-card" data-semester="s1" data-year="2025" data-category="dev"
+          data-context="Optimiser et moderniser l’apparence graphique du site web d’une entreprise fictive d’informatique rétro, en respectant les demandes et contraintes du client."
+          data-resultat="Refonte complète du site en séparant la partie HTML du CSS, réduisant le code source, tout en améliorant l’accessibilité (W3C & Lighthouse) avec l’accès à plusieurs pages."
+          data-competences="Création à partir de zéro, suivre demandes, intégrations d'éléments navigables" data-tools-list="HTML, CSS, Grid & Flexbox" data-gallery="docs/Web/web2.jpg">
+          <p class="project-tag">05</p>
+          <h3>Création d'un site web<br><br></h3>
           <!-- todo -->
           <p class="project-desc">
-            Conception d’une base de données SQL Server, à partir d’un MCD. Développement d’une application C# WinForms qui affiche les données
+            Refonte complète du site en séparant la partie HTML du CSS, réduisant le code source, tout en améliorant l’accessibilité (W3C & Lighthouse) avec l’accès à plusieurs pages.
           </p>
           <div class="project-shot">
-            <img src="docs/Equipe/equipe.png" alt="">
+            <img src="docs/Web/web.jpg" alt="Image présentant le site web à modifier" loading="lazy">
+          </div>
+          <p class="project-stack">HTML & CSS</p>
+          <span class="project-more" aria-hidden="true">+</span>
+        </article>
+
+        <!-- projet 4 -->
+        <article class="project-card" data-semester="s1" data-year="2025" data-category="bdd"
+          data-context="Concevoir et implémenter une base de données relationnelle en binôme (analyse des contraintes, MCD, script de création et script de remplissage), en respectant les contraintes définies."
+          data-resultat="Script de création et de remplissage livrés en deux semaines. Gestion des clés étrangères validée par tests progressifs après correcion des erreurs initiales. Répartition des tâches en parallèles entre les deux membres de l’équipe"
+          data-competences="Modélisation relationnelle, Analyse du besoin, Travail en équipe" data-tools-list="SQL, Win'Design, Contraintes CHECK/UNIQUE, Schémas MCD">
+          <p class="project-tag">04</p>
+          <h3>Création d'une base de données</h3>
+          <!-- todo -->
+          <p class="project-desc">
+            Script de création et de remplissage livrés en deux semaines. Gestion des clés étrangères validée par tests progressifs après correction des erreurs initiales. Répartition des tâches en parallèles entre les deux membres de l’équipe
+          </p>
+          <div class="project-shot">
+            <img src="docs/bdd/bdd.jpg" alt="Image présentant le modèle conceptuel de la base de données réalisée" loading="lazy">
           </div>
           <p class="project-stack">SQL</p>
-          <p class="project-stack">C#</p>
-          <p class="project-stack">Python</p>
-          <p class="project-stack">Gestion de projet</p>
+          <p class="project-stack">Win'Design</p>
           <span class="project-more" aria-hidden="true">+</span>
         </article>
 
+        <!-- projet 3 -->
+        <article class="project-card" data-semester="s1" data-year="2025" data-category="systeme"
+          data-context="Créer un environnement virtuel complet sur une machine virtuelle avec des limites physiques (8Go d’espace de stockage maximum) sous AntiX Linux (distribution légère)."
+          data-resultat="Un environnement Linux complet (VSCode avec extensions, Git) ainsi qu’un tutoriel complet écrit sur les étapes à suivre pour reproduire à l’identique l’installation"
+          data-competences="Création et configuration d'un environnement virtuel, Administration système, Optimisation" data-tools-list="VMWare, Bash, VSCode, Git" data-gallery="docs/InstallationPoste/InstallationPoste2.jpg">
+          <p class="project-tag">03</p>
+          <h3>Installation de poste <br><br></h3>
+          <!-- todo -->
+          <p class="project-desc">
+            Un environnement Linux complet (VSCode avec extensions, Git) ainsi qu’un tutoriel complet écrit sur les étapes à suivre pour reproduire à l’identique l’installation
+          </p>
+          <div class="project-shot">
+            <img src="docs/InstallationPoste/InstallationPoste.jpg" alt="Image présentant le système de poste virtuel" loading="lazy">
+          </div>
+          <p class="project-stack">Bash</p>
+          <span class="project-more" aria-hidden="true">+</span>
+        </article>
+
+        <!-- projet 2 -->
+        <article class="project-card" data-semester="s1" data-year="2025" data-category="dev"
+          data-context="Dans un premier temps, coder les règles d’un jeu de plateau (planter un arbre, le couper, fertiliser, type de plantes, etc…), puis dans un second temps développer une ia en binôme capable de jouer à ce jeu avec une stratégie qui lui est propre, en concurrence avec les autres étudiants (accès à un classement journalier)."
+          data-resultat="Jeu fonctionnel comportant différents niveaux de difficulté avec une documentation et des tests unitaires complets. Une IA sans disqualification (aucun coup illégal) qui se place dans la tranche supérieure parmi le classement des étudiants grâce à une stratégie de classification des actions avec un ordre de priorité établi."
+          data-competences="Algorithmie, IA, Tests unitaires" data-tools-list="Java,Tests unitaires, Simulation algorithmique, Ordres de priorisation" data-gallery="docs/Biosphere/Biosphere2.jpg">
+          <p class="project-tag">02</p>
+          <h3>Jeu de plateau et création d’une IA</h3>
+          <!-- todo -->
+          <p class="project-desc">
+            Jeu fonctionnel comportant différents niveaux de difficulté avec une documentation et des tests unitaires complets. 
+          </p>
+          <div class="project-shot">
+            <img src="docs/Biosphere/Biosphere.jpg" alt="Image présentant le jeu de plateau" loading="lazy">
+          </div>
+          <p class="project-stack">Java</p>
+          <span class="project-more" aria-hidden="true">+</span>
+        </article>
+
+        <!-- projet 1, carte plus grande -->
+        <!-- les attributs data-* remplissent la fiche, cf projet 1 pour la liste -->
+        <article class="project-card project-card--featured" data-semester="s1" data-year="2025" data-category="dev"
+          data-context="Coder les fonctionnalités supplémentaires (mise à jour des données météorologiques, programmation du chauffage, etc.) à partir d'une structure de code incomplète, sur une simulation de station météo (pluviométrie, chauffage, météo)."
+          data-resultat="Implémentation des fonctions et d'algorithmes complexes tels que le décalage de tableaux, et affichage des données sous forme d'histogramme. Saisie utilisateur complète avec boucle de contrôle et de validité sur les entrées."
+          data-competences="Algorithmique, Intégration de données dans un affichage graphique" data-tools-list="Java, Algorithmique, Intégration, Boucles, Conditions, Tableaux" data-gallery="docs/Odomo_images/Odomo2.jpg, docs/Odomo_images/Odomo3.jpg">
+          <p class="project-tag">01</p>
+          <h3>Simulation de station météo</h3>
+          <!-- à réécrire -->
+          <p class="project-desc">
+            Implémentation des fonctions et d'algorithmes complexes tels que le décalage de tableaux, et affichage des données sous forme d'histogramme.
+          </p>
+          <div class="project-shot">
+            <img src="docs/Odomo_images/Odomo.jpg" alt="Image présentant le système de station météo" loading="lazy">
+          </div>
+          <p class="project-stack">Java</p>
+          <span class="project-more" aria-hidden="true">+</span>
+        </article>
       </div>
     </div>
   </section>
@@ -369,7 +366,7 @@
           <p class="project-desc">Site fonctionnel avec accueil, projets universitaires filtrables par semestre ou catégorie, projets personnels, compétences, profil et contact</p>
           <div class="project-shot project-shot--small">
             <!-- img -->
-            <img src="docs/Portfolio/portfolio.png" alt="">
+            <img src="docs/Portfolio/portfolio.jpg" alt="">
           </div>
           <p class="project-stack">HTML</p>
           <p class="project-stack">CSS</p>
@@ -397,11 +394,12 @@
     </div>
 
     <div class="skills-list">
-      <div class="skill-row"><p class="skill-label">langages</p><div class="skill-items"><span>Python</span><span>Java</span><span>C#</span><span>SQL</span><span>JavaScript</span></div></div>
+      <div class="skill-row"><p class="skill-label">langages</p><div class="skill-items"><span>Python</span><span>Java</span><span>C#</span><span>SQL</span></div></div>
       <div class="skill-row"><p class="skill-label">web</p><div class="skill-items"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
-      <div class="skill-row"><p class="skill-label">données</p><div class="skill-items"><span>SQL</span><span>Modélisation relationnelle</span><span>Conception de bases de données</span></div></div>
+      <div class="skill-row"><p class="skill-label">données</p><div class="skill-items"><span>Modélisation relationnelle</span><span>Conception de bases de données</span></div></div>
       <div class="skill-row"><p class="skill-label">programmation</p><div class="skill-items"><span>Algorithmique</span><span>Programmation orientée objet</span><span>Développement logiciel</span></div></div>
-      <div class="skill-row"><p class="skill-label">outils</p><div class="skill-items"><span>Git</span><span>VS Code</span><span>Visual Studio</span><span>WinDesign</span></div></div>
+      <div class="skill-row"><p class="skill-label">système</p><div class="skill-items"><span>Linux</span><span>Bash</span><span>Machines virtuelles</span><span>Configuration réseau</span></div></div>
+      <div class="skill-row"><p class="skill-label">outils</p><div class="skill-items"><span>Git</span><span>VS Code</span><span>Visual Studio</span><span>Win'Design</span><span>VMWare</span></div></div>
     </div>
   </div>
 </section>
@@ -412,15 +410,19 @@
         <h2>Qui suis-je ?</h2>
         <p class="about-lead">Je suis Marina, étudiante en 2<sup>e</sup> année de BUT Informatique à Bordeaux.</p>
         <p>
-          Selon les projets, je passe de Python à Java, C# ou SQL. J'aime
-          comprendre comment les choses tiennent ensemble avant de les
-          construire. Jusqu'ici, j'ai appris en cours et en projet universitaire&nbsp;:
-          concevoir une base de données, structurer une application, mener un
-          projet à plusieurs.
+          Selon les projets, je travaille avec Python, Java, C# ou SQL. Ce qui me plaît
+          , c’est de comprendre comment les différentes parties d’une application fonctionnent
+           ensemble avant de me lancer dans sa réalisation. Au fil de mes cours et de mes 
+           projets universitaires, j’ai appris à concevoir des bases de données, à organiser
+            le code d’une application et à travailler en équipe pour mener un projet à bien.
         </p>
         <p>
-          La suite, pour moi, c'est de mettre ce que j'ai appris au service
-          d'une équipe et de progresser à ses côtés.
+          En parallèle, je suis un DU en intelligence artificielle pour approfondir mes connaissances 
+          dans ce domaine, comprendre son fonctionnement et découvrir ses applications concrètes.
+        </p>
+        <p>
+          Aujourd’hui, j’ai envie de mettre en pratique ce que j’ai appris, de travailler 
+          avec une équipe et de continuer à progresser en apprenant des autres.
         </p>
         <!-- cv = image, dans docs/ -->
         <a class="btn-cv" href="docs/CV.pdf" target="_blank" rel="noopener">voir mon CV ↗</a>
@@ -461,7 +463,7 @@
 </section> </main>
                 <footer class="site-footer">
                    <div class="wrap footer-row">
-                     <span>Marina Leonard</span>
+                     <span>Marina Léonard</span>
                       <span id="year"></span>
                      </div>
                     </footer>
@@ -501,7 +503,5 @@
   <img id="lightboxImg" src="" alt="">
 </div>
 <script src="script.js"></script>
-<script src="contact.js"></script>
-<script src="profil.js"></script>
                     </body>
   </html>

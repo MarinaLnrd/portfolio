@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Marina Leonard</title>
+  <rect width="64" height="64" rx="10" fill="#18181A"/>
+  <g fill="#EDEAE2">
+    <path transform="translate(11.60 39) scale(0.03400 -0.03400)" d="M438 323 444 525H435L300 166L165 525H156L162 323V0H48V698H204L301 441H308L406 698H552V0H438Z"/>
+    <path transform="translate(32.00 39) scale(0.03400 -0.03400)" d="M100 0V698H231V108H540V0Z"/>
+  </g>
+  <rect x="14.0" y="46" width="36" height="3" fill="#A8391D"/>
+</svg>

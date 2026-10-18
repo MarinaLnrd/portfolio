@@ -269,7 +269,16 @@ document.addEventListener("keydown", (e) => {
 
 // cartes cliquables (uni + perso)
 document.querySelectorAll("#projectGrid .project-card, #perso .project-card").forEach((card) => {
+  card.setAttribute("tabindex", "0");
+  card.setAttribute("role", "button");
   card.addEventListener("click", () => openModal(card));
+  card.addEventListener("keydown", (e) => {
+    if (e.target !== card) return; 
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      openModal(card);
+    }
+  });
 });
 
 if (modalClose) modalClose.addEventListener("click", closeModal);
